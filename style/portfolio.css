@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* Common Style */
+.btn-style{
+    padding: 18px 35px;
+    background: #FD6E0A;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.dark-01{
+    color: #181818;
+}
+.dark-02{
+    color: #474747;
+}
+.dark-03{
+    color: #757575;
+}
+.dark-04{
+    color: #A3A3A3;
+}
+.dark-05{
+    color: #FD6E0A;
+}
+.sec-bg-color{
+    background: #FFF8F3;
+}
+.sec-heading{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+}
+.paragraph-style{
+    font-size: 18px;
+    font-weight: normal;
+    color: #757575;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.text-center{
+    text-align: center;
+}
+/* Header Style Start */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50px 30px, bottom right;
+}
+.nav-logo{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 230px;
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
+nav ul{
+    display: flex;
+    align-items: center
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    outline: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* Banner Style Start */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 39px 0 230px;
+}
+.banner-content{
+    width: 585px;
+}
+.banner-content h3{
+    font-size: 45px;
+    font-weight: 600px;
+}
+.banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+}
+.btn-secondary{
+    background: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    margin-left: 20px;
+}
+
+/* Main Section Start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-section{
+    padding: 100px;
+    margin: 100px 0px 100px 0px;
+}
+.about{
+    padding: 30px;
+    border: 1px solid black;
+    background: white;
+}
+.about-iteams{
+    display: flex;
+    gap: 50px;
+}
