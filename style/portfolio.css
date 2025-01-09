@@ -130,6 +130,7 @@ main{
 .about-section{
     padding: 100px;
     margin: 100px 0px 100px 0px;
+    text-align: center;
 }
 .about{
     padding: 30px;
@@ -138,5 +139,112 @@ main{
 }
 .about-iteams{
     display: flex;
-    gap: 50px;
+    justify-content: space-around;
+}
+.about-iteam h4{
+    font-size: 20px;
+    font-weight: normal;
+}
+.about-iteam h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ /* Work Section Style */
+.work-section{
+    margin-bottom: 100px;
+}
+ .work-section .work-des{
+    margin: 30px 110px ;
+    
+ }
+.works-container{
+    display: flex;
+    gap: 24px;
+    margin: 30px 0;
+}
+.work{
+    background: white;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+/* Resume Section Start */
+.resume-section{
+    margin: 50px 0px 100px 0px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-col h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.resume-description{
+    padding: 20px 40px 20px 0px;
+}
+.resume-description h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.resume-description h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-description p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+}
+/* Footer Section Start */
+footer{
+    padding: 150px 0;
+}
+.footer-section{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 124px;
+}
+.footer-width-left{
+    width: 60%;
+}
+.footer-width-right{
+    width: 40%;
+}
+.footer-col h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-col p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.footer-col img{
+    margin-right: 20px;
+}
+.footer-col .input-style, textarea{
+    padding: 20px 20px;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #757575;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 5px;
 }
