@@ -127,6 +127,7 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+/* About Section Start */
 .about-section{
     padding: 100px;
     margin: 100px 0px 100px 0px;
@@ -137,15 +138,15 @@ main{
     border: 1px solid black;
     background: white;
 }
-.about-iteams{
+.about-items{
     display: flex;
     justify-content: space-around;
 }
-.about-iteam h4{
+.about-item h4{
     font-size: 20px;
     font-weight: normal;
 }
-.about-iteam h3{
+.about-item h3{
     font-size: 20px;
     font-weight: 600;
 }
@@ -239,7 +240,7 @@ footer{
 .footer-col .input-style, textarea{
     padding: 20px 20px;
     display: block;
-    width: 100%;
+    width: calc(100% - 40px);
     margin-bottom: 25px;
     font-size: 16px;
     color: #757575;
@@ -247,4 +248,66 @@ footer{
     outline: none;
     background: white;
     border-radius: 5px;
+}
+
+
+/* Responsive Media Query */
+
+/* Smaller Device */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .work-section .work-des{
+        margin: 0;
+        padding: 30px;
+    }
+    .works-container, .resume-container, .footer-section, .about-items{
+        flex-direction: column;
+    }
+    .resume-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-section{
+        width: auto;
+    }
+    .footer-width-left, .footer-width-right{
+        width: auto;
+        padding: 0 20px;
+    }
+    .about-section{
+        padding: 0;
+    }
+    .about-items{
+        gap: 20px;
+    }
+    .about{
+        border: none;
+    }
+    .about > p{
+        padding: 0 30px;
+        margin: 20px 0;
+    }
+    .banner{
+        margin: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-content{
+        width: auto;
+    }
+    .banner img{
+        width: auto;
+    }
+    nav{
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }
+    nav ul{
+        margin-top: 30px;
+    }
+
 }
